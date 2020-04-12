@@ -8,9 +8,9 @@ function findMatching (drivers, name) {
 }
 
 
-function fuzzyMatch(source, testString) {
-  return source.filter( possibleMatch =>
-    possibleMatch.toLowerCase().indexOf(testString.toLowerCase()) === 0
+function fuzzyMatch(drivers, testString) {
+  return drivers.filter( driver =>
+    driver.toLowerCase().indexOf(testString.toLowerCase()) === 0
   )
 }
 
