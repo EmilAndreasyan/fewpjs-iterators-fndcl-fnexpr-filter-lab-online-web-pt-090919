@@ -7,11 +7,9 @@ function findingMatch (drivers, name) {
   })
 }
 
-findingMatch(drivers, "Bobby")
-
 function fuzzyMatch (drivers, string) {
   return drivers.filter(driver => {
-    driver.toLowerCase().indexOf(string.toLowerCase() === 0)
+    driver.toLowerCase().indexOf(string.toLowerCase()) === 0;
   })
 }
 
