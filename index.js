@@ -1,11 +1,5 @@
 // Code your solution here
-// const drivers = ['Bobby', 'Sammy', 'Sally', 'Annette', 'Sarah', 'Bobby']
-
-// function findMatching (drivers, testString) {
-//   return drivers.filter(driver => {
-//     driver.toLowerCase() === testString.toLowerCase()
-//   })
-// }
+const drivers = ['Bobby', 'Sammy', 'Sally', 'Annette', 'Sarah', 'Bobby']
 
 function findMatching(drivers, testString) {
   return drivers.filter( driver =>
