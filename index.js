@@ -7,9 +7,9 @@
 //   })
 // }
 
-function findMatching(source, sought) {
-  return source.filter( possibleMatch =>
-    possibleMatch.toLowerCase() === sought.toLowerCase()
+function findMatching(drivers, testString) {
+  return drivers.filter( driver =>
+    driver.toLowerCase() === testString.toLowerCase()
   )
 }
 
