@@ -11,7 +11,7 @@ findingMatch(drivers, "Bobby")
 
 function fuzzyMatch (drivers, string) {
   return drivers.filter(driver => {
-    driver.toLowerCase()
+    driver.toLowerCase().indexOf(string)
   })
 }
 
