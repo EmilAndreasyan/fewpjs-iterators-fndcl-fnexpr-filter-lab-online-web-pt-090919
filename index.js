@@ -9,13 +9,13 @@ function findingMatch (drivers, name) {
 
 findingMatch(drivers, "Bobby")
 
-// function fuzzyMatch (drivers, string) {
-//   drivers.filter(driver => {
-//     let letter = driver.charAt(0)
-//     let matchLetter = string.charAt(0)
-//     return driver if letter === matchLetter;
-//   })
-// }
+function fuzzyMatch (drivers, string) {
+  drivers.filter(driver => {
+    let letter = driver.charAt(0)
+    let matchLetter = string.charAt(0)
+    return driver if letter === matchLetter;
+  })
+}
 
 function matchName (drivers, string) {
   drivers.filter(driver => {
