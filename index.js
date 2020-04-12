@@ -13,12 +13,6 @@ function fuzzyMatch (drivers, string) {
   })
 }
 
-// function matchName (drivers, name) {
-//   return drivers.filter(driver => {
-//     driver.name === name
-//   })
-// }
-
-function matchName(source, soughtName) {
-  return source.filter( record => record.name === soughtName)
+function matchName(drivers, givenName) {
+  return drivers.filter( driver => driver.name === givenName)
 }
